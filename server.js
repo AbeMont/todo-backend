@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res)=>{
-    res.status(200).json({messge: 'Server connected'})
+    res.status(200).json({message: 'Server connected...and ready.'})
 });
 
 app.use('/api', router);
